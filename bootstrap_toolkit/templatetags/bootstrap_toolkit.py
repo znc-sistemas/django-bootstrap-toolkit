@@ -3,7 +3,7 @@ import re
 from math import floor
 
 from django.forms import BaseForm
-from django.forms.forms import BoundField
+from django.forms.boundfield import BoundField
 from django.forms.widgets import TextInput, CheckboxInput, CheckboxSelectMultiple, RadioSelect
 from django.template.loader import get_template
 from django import template
